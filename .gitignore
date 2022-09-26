@@ -1,0 +1,4 @@
+*.drawio
+*.cache
+*.txt
+__pycache__
