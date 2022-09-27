@@ -1,4 +1,4 @@
-from view import View
+from GUI.view import View
 
 # design pattern Model-View-Controller
 def main():

@@ -1,12 +1,9 @@
 from tkinter import Tk
 import asyncio
-from controller import Controller
-from gui_login import LoginGUI
-from gui_loading import LoadingGUI
-from gui_main import MainGUI
-
-# user: 6e749bf8f1de42e8a3ce17507f40ca7c
-# pword: 67c5ec0b43724a4cba0f4e34e458bd38
+from Controller.controller import Controller
+from GUI.gui_login import LoginGUI
+from GUI.gui_loading import LoadingGUI
+from GUI.gui_main import MainGUI
 
 
 class View:

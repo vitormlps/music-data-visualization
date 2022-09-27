@@ -3,8 +3,8 @@ from spotipy.oauth2 import SpotifyOAuth
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
-        client_id="6e749bf8f1de42e8a3ce17507f40ca7c",
-        client_secret="67c5ec0b43724a4cba0f4e34e458bd38",
+        client_id="id",
+        client_secret="secret",
         redirect_uri="http://localhost:8080",
         scope=[
             "user-library-read",

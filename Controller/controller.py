@@ -1,6 +1,5 @@
-import asyncio
-from spotify_connect import Spotipy
-from data_model import Model
+from Data.data_model import Model
+from .spotify_connect import Spotipy
 
 
 class Controller:
@@ -11,8 +10,8 @@ class Controller:
     def verify_entries(self, user, password):
         if (
             # depois refatorar com regex
-            user == "6e749bf8f1de42e8a3ce17507f40ca7c"
-            and password == "67c5ec0b43724a4cba0f4e34e458bd38"
+            user == "id"
+            and password == "secret"
         ):
             return self.connect_user(user, password)
         raise AttributeError("Not valid entries.")

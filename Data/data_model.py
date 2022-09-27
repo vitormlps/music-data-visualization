@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-from spotify_collect import SpotifyDataCollector
-from data_type import *
+from .spotify_collect import SpotifyDataCollector
+from .data_type import *
 
 
 class Model:
